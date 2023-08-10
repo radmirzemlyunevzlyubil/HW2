@@ -1,0 +1,57 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 100px 735px;
+}
+
+.traffic-signal {
+    border: 8px solid black;
+    padding: 10px 3px;
+    width: 75px;
+    border-radius: 50px;
+    margin: -2px;
+}
+
+.traffic-signal > button {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-left: 1px;
+}
+
+.line1 {
+    height: 200px;
+    width: 10px;
+    background: #000;
+    margin-left: 30px;
+}
+
+.line2 {
+    height: 10px;
+    width: 70px;
+    background: #000;
+}
+
+.line3 {
+    width: 663px;
+    height: 12px;
+    background: black;
+    border-radius: 25px;
+    margin: 8px 0 0 -295px;
+}
+
+.green {
+    background-color: lawngreen;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.red {
+    background-color: red;
+}
